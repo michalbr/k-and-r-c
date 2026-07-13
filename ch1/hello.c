@@ -2,10 +2,14 @@
 
 int main(void)
 {
-    double nc;
+    int c, nl;
 
-    for (nc = 0; getchar() != EOF; ++nc)
-        ;
+    nl = 0;
+    while ((c = getchar()) != EOF)
+    {
+        if (c == '\n')
+            ++nl;
+    }
 
-    printf("%.0f\n", nc);
+    printf("%d\n", nl);
 }
