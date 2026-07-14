@@ -26,5 +26,5 @@ int main(void)
     - if prev does not equal blank
         - print curernt character
     - save current character to prev
-
+    - this is test line for commit
 */
