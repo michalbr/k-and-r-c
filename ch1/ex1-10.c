@@ -19,6 +19,5 @@ int main(void)
 }
 
 /*
-
-
+The output of the program does not show backspace, because every backspace key hit on the keyboard, is intercepted by a terminal, and never reaches the program.
 */
